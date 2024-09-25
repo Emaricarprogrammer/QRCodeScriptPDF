@@ -158,3 +158,4 @@ Todo o processo está encapsulado em uma estrutura condicional para assegurar qu
 ## Licença
 
 Distribuído sob a licença MIT. Veja `LICENSE` para mais detalhes.
+"# QRCodeScriptPDF"  
