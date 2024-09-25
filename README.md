@@ -8,7 +8,7 @@ Este é um módulo desenvolvido em Node.js, que permite exportar informações c
 Este módulo foi desenvolvido e customizado por Emaricar Developer.
 
 ## Iniciando
-Primeiro clone o repositório https://github.com/Emaricarprogrammer/QRCodeScriptPDF.
+Primeiro clone o repositório com o comando git clone https://github.com/Emaricarprogrammer/QRCodeScriptPDF.
 
 ## Estrutura do Código
 
