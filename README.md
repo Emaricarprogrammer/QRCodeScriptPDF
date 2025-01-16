@@ -8,11 +8,13 @@ Este é um módulo desenvolvido em Node.js, que permite exportar informações c
 Este módulo foi desenvolvido e customizado por Emaricar Developer.
 
 ## Iniciando
-Primeiro clone o repositório com o comando git clone https://github.com/Emaricarprogrammer/QRCodeScriptPDF.
+Via github: Clone o repositório com o comando git clone https://github.com/Emaricarprogrammer/QRCodeScriptPDF.
+Via npm: Use o comando npm i qrcodeapp
 
 ## Estrutura do Código
 
-Na pasta  `QRCodeScriptPDF`, contém o `CodePDF.js`, que é responsável por criar duas classes, `GenerateQrcode` e `CreatePDFCode`.
+Via npm o módulo`qrcodeapp`, contém o `CodePDF.js`, que é responsável por criar duas classes, `GenerateQrcode` e `CreatePDFCode`.
+Via github o repositório `QRCodeScriptPDF`, contém o `CodePDF.js`, que é responsável por criar duas classes, `GenerateQrcode` e `CreatePDFCode`.
 
 - A classe `GenerateQrcode` contém o método assíncrono `generateQrCode`, responsável por criar o código QR por meio do `qrcode`.
 - A classe `CreatePDFCode` contém o método assíncrono `createPDF`, responsável por exportar o QRCode no formato PDF por meio do `pdfkit`.
@@ -26,7 +28,7 @@ Se você deseja adaptar a estilização do seu PDF, você pode acessar a documen
 Você pode começar por utilizar a seguinte sintaxe:
 
 ### Exemplo:
-
+** O campo title é obrigatório **
 ```javascript
 const qr = require('./QRcodePDF/CodePDF');
 const data = {
